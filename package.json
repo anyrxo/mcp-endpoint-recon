@@ -2,10 +2,10 @@
   "name": "mcp-endpoint-recon",
   "version": "1.0.0",
   "description": "MCP server for endpoint discovery, payload analysis, and preview capture",
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.6.0",

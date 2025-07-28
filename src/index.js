@@ -402,13 +402,13 @@ class EndpointReconServer {
     const __dirname = path.dirname(__filename);
     
     // Path to capture-everything-recon.js
-    const scriptPath = path.join(__dirname, 'capture-everything-recon.js');
+    const scriptPath = path.join(__dirname, 'tools', 'capture-everything-recon.js');
     
     console.log(`🎯 Launching capture on AdsPower port ${adspowerPort}...`);
     
     return new Promise((resolve, reject) => {
       const process = spawn('node', [scriptPath, adspowerPort, targetUrl, duration.toString()], {
-        cwd: __dirname,
+        cwd: path.dirname(__dirname),
       });
       
       let output = '';
@@ -435,8 +435,8 @@ class EndpointReconServer {
         try {
           // Find the generated endpoints.md file
           const domain = new URL(targetUrl).hostname.replace(/\./g, '-');
-          const mdFile = path.join(__dirname, `endpoints-${domain}.md`);
-          const jsonFile = path.join(__dirname, `endpoints-${domain}.json`);
+          const mdFile = path.join(path.dirname(__dirname), `endpoints-${domain}.md`);
+          const jsonFile = path.join(path.dirname(__dirname), `endpoints-${domain}.json`);
           
           // Read the generated files
           const mdContent = await fs.readFile(mdFile, 'utf-8');
@@ -482,13 +482,13 @@ class EndpointReconServer {
     const __dirname = path.dirname(__filename);
     
     // Path to comprehensive-capture-commander.js
-    const scriptPath = path.join(__dirname, 'comprehensive-capture-commander.js');
+    const scriptPath = path.join(__dirname, 'tools', 'comprehensive-capture-commander.js');
     
     console.log(`🎯 Launching comprehensive capture with navigation on AdsPower port ${adspowerPort}...`);
     
     return new Promise((resolve, reject) => {
       const process = spawn('node', [scriptPath, adspowerPort, targetUrl, duration.toString()], {
-        cwd: __dirname,
+        cwd: path.dirname(__dirname),
       });
       
       let output = '';
@@ -515,8 +515,8 @@ class EndpointReconServer {
         try {
           // Find the generated endpoints.md file
           const domain = new URL(targetUrl).hostname.replace(/\./g, '-');
-          const mdFile = path.join(__dirname, `endpoints-${domain}.md`);
-          const jsonFile = path.join(__dirname, `endpoints-${domain}.json`);
+          const mdFile = path.join(path.dirname(__dirname), `endpoints-${domain}.md`);
+          const jsonFile = path.join(path.dirname(__dirname), `endpoints-${domain}.json`);
           
           // Read the generated files
           const mdContent = await fs.readFile(mdFile, 'utf-8');

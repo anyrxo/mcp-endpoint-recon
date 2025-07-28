@@ -51,7 +51,7 @@ Add to your Claude Desktop configuration (`~/Library/Application Support/Claude/
   "mcpServers": {
     "endpoint-recon": {
       "command": "node",
-      "args": ["/path/to/mcp-endpoint-recon/index.js"]
+      "args": ["/path/to/mcp-endpoint-recon/src/index.js"]
     }
   }
 }
