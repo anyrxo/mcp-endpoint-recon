@@ -1,0 +1,24 @@
+{
+  "name": "mcp-endpoint-recon",
+  "version": "1.0.0",
+  "description": "MCP server for endpoint discovery, payload analysis, and preview capture",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.3.0",
+    "playwright": "^1.54.1"
+  },
+  "keywords": [
+    "mcp",
+    "endpoint",
+    "recon",
+    "security"
+  ],
+  "author": "Joyce",
+  "license": "MIT"
+}

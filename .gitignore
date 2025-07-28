@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# Output files
+endpoints-*.md
+endpoints-*.json
+devtools-recon-*.md
+devtools-recon-*.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Test files
+*.test.js
+coverage/
+
+# Temporary files
+*.tmp
+.cache/

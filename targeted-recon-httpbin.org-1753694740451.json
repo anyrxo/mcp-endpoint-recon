@@ -1,0 +1,201 @@
+{
+  "targetDomain": "httpbin.org",
+  "endpoints": [
+    {
+      "url": "https://httpbin.org/",
+      "method": "GET",
+      "headers": {
+        "dnt": "1",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Google Chrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "payloads": [],
+      "responses": [
+        {
+          "status": 200,
+          "headers": {
+            "access-control-allow-credentials": "true",
+            "access-control-allow-origin": "*",
+            "content-length": "9593",
+            "content-type": "text/html; charset=utf-8",
+            "date": "Mon, 28 Jul 2025 09:25:28 GMT",
+            "server": "gunicorn/19.9.0"
+          },
+          "timestamp": "2025-07-28T09:25:29.074Z"
+        }
+      ],
+      "postData": null
+    },
+    {
+      "url": "https://httpbin.org/flasgger_static/swagger-ui.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://httpbin.org/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Google Chrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\"",
+        "dnt": "1",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "payloads": [],
+      "responses": [
+        {
+          "status": 200,
+          "headers": {
+            "cache-control": "public, max-age=43200",
+            "etag": "\"1578987262.0-153930-3675134707\"",
+            "access-control-allow-credentials": "true",
+            "expires": "Mon, 28 Jul 2025 21:22:40 GMT",
+            "accept-ranges": "bytes",
+            "access-control-allow-origin": "*",
+            "content-length": "153930",
+            "date": "Mon, 28 Jul 2025 09:22:40 GMT",
+            "content-type": "text/css; charset=utf-8",
+            "last-modified": "Tue, 14 Jan 2020 07:34:22 GMT",
+            "server": "gunicorn/19.9.0"
+          },
+          "timestamp": "2025-07-28T09:25:29.096Z"
+        }
+      ],
+      "postData": null
+    },
+    {
+      "url": "https://httpbin.org/flasgger_static/swagger-ui-bundle.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://httpbin.org/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Google Chrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\"",
+        "dnt": "1",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "payloads": [],
+      "responses": [
+        {
+          "status": 200,
+          "headers": {
+            "cache-control": "public, max-age=43200",
+            "etag": "\"1578987262.0-1428809-2223119662\"",
+            "access-control-allow-credentials": "true",
+            "expires": "Mon, 28 Jul 2025 21:22:40 GMT",
+            "accept-ranges": "bytes",
+            "access-control-allow-origin": "*",
+            "content-length": "1428809",
+            "date": "Mon, 28 Jul 2025 09:22:40 GMT",
+            "content-type": "application/javascript",
+            "last-modified": "Tue, 14 Jan 2020 07:34:22 GMT",
+            "server": "gunicorn/19.9.0"
+          },
+          "timestamp": "2025-07-28T09:25:29.116Z"
+        }
+      ],
+      "postData": null
+    },
+    {
+      "url": "https://httpbin.org/flasgger_static/swagger-ui-standalone-preset.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://httpbin.org/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Google Chrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\"",
+        "dnt": "1",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "payloads": [],
+      "responses": [
+        {
+          "status": 200,
+          "headers": {
+            "cache-control": "public, max-age=43200",
+            "etag": "\"1578987262.0-440437-3789627805\"",
+            "access-control-allow-credentials": "true",
+            "expires": "Mon, 28 Jul 2025 21:22:40 GMT",
+            "accept-ranges": "bytes",
+            "access-control-allow-origin": "*",
+            "content-length": "440437",
+            "date": "Mon, 28 Jul 2025 09:22:40 GMT",
+            "content-type": "application/javascript",
+            "last-modified": "Tue, 14 Jan 2020 07:34:22 GMT",
+            "server": "gunicorn/19.9.0"
+          },
+          "timestamp": "2025-07-28T09:25:29.098Z"
+        }
+      ],
+      "postData": null
+    },
+    {
+      "url": "https://httpbin.org/flasgger_static/lib/jquery.min.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://httpbin.org/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Google Chrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\"",
+        "dnt": "1",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "payloads": [],
+      "responses": [
+        {
+          "status": 200,
+          "headers": {
+            "cache-control": "public, max-age=43200",
+            "etag": "\"1578987262.0-85578-751967236\"",
+            "access-control-allow-credentials": "true",
+            "expires": "Mon, 28 Jul 2025 21:22:40 GMT",
+            "accept-ranges": "bytes",
+            "access-control-allow-origin": "*",
+            "content-length": "85578",
+            "date": "Mon, 28 Jul 2025 09:22:40 GMT",
+            "content-type": "application/javascript",
+            "last-modified": "Tue, 14 Jan 2020 07:34:22 GMT",
+            "server": "gunicorn/19.9.0"
+          },
+          "timestamp": "2025-07-28T09:25:29.097Z"
+        }
+      ],
+      "postData": null
+    },
+    {
+      "url": "https://httpbin.org/spec.json",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://httpbin.org/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Google Chrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\"",
+        "dnt": "1",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "payloads": [],
+      "responses": [
+        {
+          "status": 200,
+          "headers": {
+            "access-control-allow-origin": "*",
+            "content-length": "41019",
+            "date": "Mon, 28 Jul 2025 09:25:30 GMT",
+            "content-type": "application/json",
+            "server": "gunicorn/19.9.0",
+            "access-control-allow-credentials": "true"
+          },
+          "timestamp": "2025-07-28T09:25:31.053Z"
+        }
+      ],
+      "postData": null
+    }
+  ],
+  "cookies": [],
+  "localStorage": {},
+  "summary": {
+    "totalEndpoints": 6,
+    "getRequests": 6,
+    "postRequests": 0,
+    "endpointsWithPayloads": 0
+  }
+}
